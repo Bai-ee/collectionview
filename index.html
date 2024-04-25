@@ -92,13 +92,20 @@ h3,p{font-weight:900}
 <!-- //content -->
   <div id="section" style="">
     <!-- <img class="" src="img/8f4ee304-08b8-4b8a-b4d1-acfee08d7cbb.avif" alt="Crudeboy Grease Logo"> -->
-    <div id="openseadragon1" style="width: 400px; height: 600px;"></div>
+    <div id="openseadragon1" style="width: 100vw; height: 100vh;"></div>
 
       <script type="text/javascript">
         console.log(OpenSeadragon);
           var viewer = OpenSeadragon({
+            visibilityRatio: 1.0,
+    constrainDuringPan: true,
+            panHorizontal: 	false,
+    defaultZoomLevel: 	0.25,
+    // minZoomLevel: 	1,
+    // maxZoomLevel: 	1,
+    visibilityRatio: 	1,
               id: "openseadragon1",
-              prefixUrl: "./openseadragon/images/MyResultingDZI_files",
+              prefixUrl: "./openseadragon/images/MyResultingDZI_files/",
               tileSources: "./openseadragon/images/MyResultingDZI.dzi"
           });
       </script>
