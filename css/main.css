@@ -562,7 +562,6 @@ input {
       justify-content: center;
       background-color:transparent;
       width:100%; 
-      max-width:90vw; 
       margin-top:0px;
       outline: 0.15px solid transparent;
       overflow: hidden; 
@@ -570,8 +569,6 @@ input {
       align-content:center; 
       position:absolute;
       background-color: transparent;
-      width: 100%;
-      max-width: 90vw;
       margin-top: 0px;
       outline: transparent solid 0.15px;
       overflow: visible;
